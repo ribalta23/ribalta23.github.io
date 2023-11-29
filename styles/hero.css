@@ -1,0 +1,38 @@
+.main-page {
+    margin: 200px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-page h3 {
+    color: #005B9A;
+}
+.text-container {
+    text-align: left;
+    color: #C4BFB7;
+    font-weight: bold;
+    margin: 20px 0 30px 0;
+    font-size: 3.5em;
+    height: 70px;
+}
+.about-text {
+    text-align: left;
+    color: #C4BFB7;
+    font-size: 1.5em;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ffffff;
+    }
+}
+
