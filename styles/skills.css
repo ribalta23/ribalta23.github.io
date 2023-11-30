@@ -1,0 +1,58 @@
+.skills-page {
+    margin: 150px 0;
+}
+.skills-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-page h2 {
+    color: #005B9A;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.skill {
+    margin: 5px;
+    width: 45%;
+    background: #2e3031;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 2px 0px rgb(113, 118, 119);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.skill:hover {
+    scale: 1.05;
+}
+.skill i {
+    font-size: 50px;
+}
+.skill span {
+    color: #C4BFB7;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.html i{color: rgb(255, 102, 0);}
+.css i{color: rgb(0, 102, 255);}
+.js i{color: rgb(255, 238, 0);}
+.java i{color: rgb(63, 101, 156);}
+.python i{color: rgb(41, 148, 139);}
+.c i{color: rgb(255, 255, 255)}
+.sql i{color: rgb(162, 0, 255);}
+
+.skill span div {
+    font-weight: normal;
+    margin-top: 10px;
+}
