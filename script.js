@@ -31,3 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     type();
 });
+
+function toggleDetails(projectId) {
+    const details = document.getElementById(projectId);
+    details.style.display = details.style.display === 'none' ? 'block' : 'none';
+}

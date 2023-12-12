@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
     <header>
@@ -37,15 +37,29 @@
         <div class="container">
             <h2>MY SKILLS</h2>
             <div class="skills">
-                <div class="skill html"><i class="fa-brands fa-html5"></i><span>HTML<div>Web Markup</div></span></div>
-                <div class="skill css"><i class="fa-brands fa-css3-alt"></i><span>CSS<div>Web style</div></span></div>
-                <div class="skill js"><i class="fa-brands fa-js"></i><span>JAVASCRIPT<div>Interactive website</div></span></div>
-                <div class="skill java"><i class="fa-brands fa-java"></i><span>JAVA<div>Startup programming language</div></span></div>
-                <div class="skill python"><i class="fa-brands fa-python"></i><span>PYTHON<div>For all</div></span></div>
-                <div class="skill c"><i class="fa-solid fa-c"></i><span>CSHARP<div>For programming in Unity</div></span></div>
-                <div class="skill sql"><i class="fa-solid fa-database"></i><span>SQL<div>Databases</div></span></div>
+                <div class="skill html"><img src="./img/html.png" alt=""><span>HTML<div>Web Markup</div></span></div>
+                <div class="skill css"><img src="./img/css.png" alt=""><span>CSS<div>Web style</div></span></div>
+                <div class="skill js"><img src="./img/js.png" alt=""><span>JAVASCRIPT<div>Interactive website</div></span></div>
+                <div class="skill java"><img src="./img/java.png" alt=""><span>JAVA<div>Startup programming language</div></span></div>
+                <div class="skill python"><img src="./img/python.png" alt=""><span>PYTHON<div>For all</div></span></div>
+                <div class="skill c"><img src="./img/csharp.png" alt=""><span>CSHARP<div>For programming in Unity</div></span></div>
+                <div class="skill sql"><img src="./img/mysql.png" alt=""><span>SQL<div>Databases</div></span></div>
+                <div class="skill astro"><img src="./img/astro.png" alt=""><span>ASTRO<div>JS Framework</div></span></div>
             </div>
         </div>
     </section>
+    <div id="projects" class="projects-page">
+        <div class="container">
+            <h2>MY PROJECTS</h2>
+            <section class="projects" id="project1">
+                <h3>Projects HTML - CSS - JS</h3>
+                <p>This repository contains my projects to practice in FrontEnd.</p>
+                <div class="project-details" id="project1-details">
+                    <p></p>
+                </div>
+                <button class="toggle-btn" onclick="toggleDetails('project1-details')"><i class="fa-solid fa-arrow-down"></i></button>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
