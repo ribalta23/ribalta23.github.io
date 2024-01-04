@@ -74,6 +74,7 @@ header img{
     border-radius: 50%;
     height: 60px;
     margin-right: 10px;
+    border: 3px solid var(--main-alternative-color);
 }
 .title a{
     display: flex;
@@ -126,11 +127,13 @@ header img{
     width: 100%;
     margin-bottom: 30px;
 }
-
-.project img {
+.project-img{
+    height: 300px;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 .project h3 {
     color: #fff;
 }
@@ -141,7 +144,7 @@ header img{
 }
 .project-content {
     margin-top: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
     border-left: white 2px solid;
     margin-left: 20px;
 }
@@ -158,7 +161,7 @@ header img{
     margin: 10px;
 }
 
-.project-content div {
+.project-links {
     display: flex;
     justify-content: end;
 }
