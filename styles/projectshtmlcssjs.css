@@ -1,0 +1,32 @@
+h1 {
+    color: #005B9A;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.projects details {
+    padding: 20px;
+    background: #383b3d;
+    margin: 5px 0;
+    color: #C4BFB7;
+    font-weight: bold;
+    cursor: pointer;
+}
+.projects .content {
+    margin: 20px;
+}
+
+.projects img{
+    width: 100%;
+}
+
+.projects a {
+    color: #005B9A;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.links {
+    margin-top: 10px;
+}
