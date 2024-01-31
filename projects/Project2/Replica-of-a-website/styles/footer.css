@@ -1,0 +1,37 @@
+footer {
+    background-color: black;
+    height: 100px;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 30px;
+}
+
+.footer_esquerra {
+    max-width: 1100px;
+}
+
+.footer_esquerra a {
+    font-size: 14px;
+    margin-right: 12px;
+    color: white;
+}
+
+.footer_esquerra a:hover {
+    text-decoration: underline;
+}
+
+footer button {
+    border-radius: 50px;
+    background: black;
+    border-color: white;
+    cursor: pointer;
+    color: white;
+}
+
+footer button:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}

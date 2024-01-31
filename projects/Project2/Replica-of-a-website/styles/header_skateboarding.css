@@ -1,0 +1,517 @@
+header {
+    width: 100%;
+    height: 100px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 75px;
+    margin-left: 9px;
+}
+
+.header_dalt {
+    margin-top: 12px;
+    width: 100%;
+}
+.header_dalt ul li {
+    text-align: right;
+}
+.header_dalt ul li a {
+    margin-right: 12px;
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.header_dalt ul li a span img {
+    height: 12px;
+}
+.header_dalt ul li a span{
+    margin-right: 3px;
+}
+
+.header_dalt ul li a:hover {
+    margin-right: 12px;
+    color: #c9192e;
+    text-decoration: underline;
+}
+
+.header_dalt ul li a:hover .img_red {
+    display: inline;
+}
+
+.header_dalt ul li a:hover .img_gray {
+    display: none;
+}
+
+.img_red {
+    display: none;
+}
+
+/*----------- DESPLEGABLES---------*/
+.header_baix {
+    display: grid;
+    grid-template-columns: auto auto AUTO AUTO AUTO AUTO AUTO AUTO auto AUTO AUTO AUTO AUTO AUTO AUTO auto;
+    margin-top: 35px;
+}
+/*----------- MUJER ---------*/
+.desplegable_mujer a{
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 17px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.desplegable_mujer a:hover{
+    color: #c9192e;
+}
+
+.desplegable_mujer a:hover .Fletxa_Vermella{
+    display: inline;
+}
+.desplegable_mujer a:hover .Fletxa_Gris{
+    display: none;
+}
+
+.desplegable_mujer {
+    position: relative;
+    display: inline-block;
+}
+
+.mujer-content {
+    margin-top: 17px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    height: 600px;
+    width: 1400px;
+    left: -550px;
+}
+
+.container_mujer {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 40px;
+}
+
+.container_mujer_div {
+    width: 300px;
+}
+
+.mujer-content a {
+    color: #85BEE3;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.mujer-content h5 {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.desplegable_mujer:hover .mujer-content {
+    display: block;
+}
+
+/*----------- HOMBRE ---------*/
+
+.desplegable_hombre a{
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 17px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.desplegable_hombre a:hover{
+    color: #c9192e;
+}
+
+.desplegable_hombre a:hover .Fletxa_Vermella{
+    display: inline;
+}
+.desplegable_hombre a:hover .Fletxa_Gris{
+    display: none;
+}
+
+.desplegable_hombre {
+    position: relative;
+    display: inline-block;
+}
+
+.hombre-content {
+    margin-top: 17px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    height: 600px;
+    width: 1400px;
+    left: -637px;
+}
+
+.container_hombre {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 40px;
+}
+
+.container_hombre_div {
+    width: 300px;
+}
+
+.hombre-content a {
+    color: #85BEE3;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.hombre-content h5 {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.desplegable_hombre:hover .hombre-content {
+    display: block;
+}
+
+/*----------- NIÑOS ---------*/
+
+.desplegable_niño a{
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 17px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.desplegable_niño a:hover{
+    color: #c9192e;
+}
+
+.desplegable_niño a:hover .Fletxa_Vermella{
+    display: inline;
+}
+.desplegable_niño a:hover .Fletxa_Gris{
+    display: none;
+}
+
+.desplegable_niño {
+    position: relative;
+    display: inline-block;
+}
+
+.niño-content {
+    margin-top: 17px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    height: 600px;
+    width: 1400px;
+    left: -737px;
+}
+
+.container_niño {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 40px;
+}
+
+.container_niño_div {
+    width: 300px;
+}
+
+.niño-content a {
+    color: #85BEE3;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.niño-content h5 {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.desplegable_niño:hover .niño-content {
+    display: block;
+}
+/*----------- NOVEDADES ---------*/
+.novedades a{
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 17px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.novedades a:hover{
+    color: #c9192e;
+}
+
+/*----------- REBAJAS ---------*/
+.rebajas a{
+    color: #c9192e;
+    font-weight: bold;
+    padding-bottom: 17px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.rebajas a:hover{
+    color: #c9192e;
+}
+
+/*----------- PERSONALIZAR ---------*/
+
+.desplegable_personalitzar a{
+    color: #333;
+    padding-bottom: 17px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.desplegable_personalitzar a:hover{
+    color: #c9192e;
+}
+
+.desplegable_personalitzar a:hover .Fletxa_Vermella{
+    display: inline;
+}
+.desplegable_personalitzar a:hover .Fletxa_Gris{
+    display: none;
+}
+
+.desplegable_personalitzar {
+    position: relative;
+    display: inline-block;
+}
+
+.personalitzar-content {
+    margin-top: 17px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    height: 600px;
+    width: 1400px;
+    left: -1027px;
+}
+
+.container_personalizar {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 40px;
+}
+
+.container_personalizar_div {
+    width: 400px;
+}
+
+.personalitzar-content a {
+    color: #85BEE3;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.personalitzar-content h5 {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.desplegable_personalitzar:hover .personalitzar-content {
+    display: block;
+}
+    
+
+/*----------- SKATEBOARDING ---------*/
+.skateboarding a{
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 17px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.skateboarding a:hover{
+    color: #c9192e;
+}
+
+/*----------- MORE ---------*/
+
+.desplegable_more a{
+    color: #333;
+    padding-bottom: 17px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.desplegable_more a:hover{
+    color: #c9192e;
+}
+.desplegable_more a:hover .Fletxa_Vermella{
+    display: inline;
+}
+.desplegable_more a:hover .Fletxa_Gris{
+    display: none;
+}
+
+.desplegable_more {
+    position: relative;
+    display: inline-block;
+}
+
+.more-content {
+    margin-top: 17px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+}
+
+.more-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.more-content a:hover {
+    color: white;
+}
+
+.desplegable_more:hover .more-content {
+    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    right:0px;
+
+}
+
+.more2 {
+    float: left;
+}
+
+.Fletxa_Gris {
+    height: 14px;
+}
+.Fletxa_Vermella {
+    height: 14px;
+    display: none;
+    
+}
+
+.header_baix p {
+    margin-right: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.search {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    bottom: 50px;
+}
+
+.search a {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.desplegable_search {
+    background: white;
+    height: 60px;
+    width: 300px;
+    margin-top: 30px;
+    float: right;
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.desplegable_search input {
+    margin-top: 2px;
+    width: 240px;
+    height: 20px;
+    margin-left: 10px;
+    border: none;
+}
+
+.desplegable_search span {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    text-align: center;
+}
+
+.desplegable_search span p {
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+}
+
+
+.desplegable_search span i {
+    margin-right: 10px;
+}
+
+.slideshow_principi .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    color: white;
+    padding-top: 3px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.fletxa_click {
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.fletxa_click:hover {
+    color: #c9192e;
+}
+
+.slideshow_principi a {
+    color: white;
+}

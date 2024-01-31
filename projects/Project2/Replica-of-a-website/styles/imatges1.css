@@ -1,0 +1,169 @@
+#imatges1 {
+    height: 800px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#imatges1 .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+#imatges1 h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#imatges1 p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#imatges1 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+#imatges1 button:hover {
+    background: white;
+    color: black;
+}
+.celebraelamor {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rangepart {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imatges2 {
+    height: 800px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#imatges2 .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+#imatges2 h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+#imatges2 p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#imatges2 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+#imatges2 button:hover {
+    background: white;
+    color: black;
+}
+
+.vogue {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.slideshow_imatges2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imatges3 {
+    height: 800px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#imatges3 .container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#imatges3 h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+#imatges3 p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#imatges3 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+#imatges3 button:hover {
+    background: white;
+    color: black;
+}
+
+.ragepants_skateboarding {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.alltimers_vans {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}

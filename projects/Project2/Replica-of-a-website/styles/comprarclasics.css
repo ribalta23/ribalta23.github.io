@@ -1,0 +1,51 @@
+#comprarclasics {
+    height: 300px;
+    width: 100%;
+}
+.comprarclasics {
+    background-image: url("../IMG/Comprarclasics/background.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_clasics {
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 00px 20px 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    margin-right: 210px;
+    height: 120px;
+    position: relative;
+}
+
+.product a{
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text_comprar_classics {
+    height: 90%;
+    width: 70px;
+    background: black;
+    writing-mode: vertical-lr;
+    color: white;
+    transform: rotate(180deg);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    border-radius: 0px 20px 20px 0;
+    font-size: 17px;
+}

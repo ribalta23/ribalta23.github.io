@@ -1,0 +1,66 @@
+#rebajas {
+    margin-top: 20px;
+    height: 210px;
+    width: 100%;
+}
+
+.rebajas_content {
+    height: 185px;
+    width: 100%;
+    background-image: url("../IMG/REBAJAS/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.rebajas_content_buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.rebajas_content_buttons button {
+    height: 50px;
+    width: 180px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 20px;
+    border: 2px solid black;
+    margin-top: -10px;
+}
+.rebajas_content_buttons button:hover {
+    background: white;
+    color: black;
+}
+
+.rebajas_content_text {
+    margin-left: 60px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rebajas_content_text h1 {
+    font-size: 40px;
+    color: #c9192e;
+    text-shadow: -2px 3px 0px rgba(108,36,36,1);
+    margin-bottom: 10px;
+}
+
+.rebajas_content_text h3 {
+    font-size: 20px;
+}
+.h3_red {
+    color: #c9192e;
+    text-shadow: -1px 2px 0px rgba(108,36,36,1);
+}
+
+.h3_pink {
+    color: #ff7d83;
+    text-shadow: -1px 2px 0px #8a4649;
+}

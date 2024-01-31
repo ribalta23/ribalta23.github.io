@@ -1,0 +1,156 @@
+.unete {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.unete span {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 450px;
+}
+
+.unete h6 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.unete span input {
+    height: 40px;
+    font-size: 20px;
+    color: red;
+    width: 400px;
+}
+.unete span button {
+    height: 44px;
+    width: 50px;
+    cursor: pointer;
+    background: #c9192e;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.unete span button:hover {
+    background: #b93544;
+} 
+
+#peu {
+    width: 100%;
+    height: 800px;
+    background: #252525;
+    color: white;
+}
+
+.llista_peu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.llista_peu_1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.llista_peu_1 li {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.llista_peu_1 li a {
+    margin-top: 10px;
+    color: rgb(192, 192, 192);
+}
+
+.llista_peu_1 li a:hover {
+    color: white;
+}
+
+.llista_peu_2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.llista_peu_2 li {
+    margin-top: 40px;
+    max-width: 350px;
+    margin-right: 60px;
+}
+
+.llista_peu_2 li p {
+    font-size: 14px;
+    color: #c0c0c0;
+    margin-top: 10px;
+}
+.llista_peu_2 li span {
+    display: grid;
+    grid-template-columns: 30px auto;
+}
+.llista_peu_2 li span img {
+    height: 30px;
+}
+
+.reds_socials {
+    margin-top: 10px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.reds_socials:hover {
+    border-radius: 5.5px;
+    cursor: pointer;
+}
+
+.reds_socials:nth-child(2):hover {
+    background: rgb(0, 247, 255);
+}
+
+.reds_socials:nth-child(3):hover {
+    background: rgb(4, 0, 255);
+}
+
+.reds_socials:nth-child(4):hover {
+    background: rgb(247, 0, 255);
+}
+
+.reds_socials:nth-child(5):hover {
+    background: rgb(255, 0, 0);
+}
+
+.llista_peu_2 li button {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button_yellow {
+    background: yellow;
+    border-color: yellow;
+    border: 2px solid yellow;
+}
+
+.button_yellow:hover {
+    background: #252525;
+    border-color: yellow;
+    color: yellow;
+}
+
+.button_white {
+    background-color: white;
+    border-color: white;
+    border: 2px solid white;
+}
+
+.button_white:hover {
+    background: #252525;
+    color: white;
+}

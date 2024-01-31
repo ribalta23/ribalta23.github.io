@@ -1,0 +1,74 @@
+.compra_por_categoria {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.compra_por_categoria h4:hover {
+    background: #c9192e;
+}
+
+.compra_por_categoria h4 {
+    cursor: pointer;
+}
+
+#compra_por_categoria h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#compra_por_categoria {
+    height: 350px;
+}
+
+.container_categoria_hombre {
+    background-image: linear-gradient(
+        rgba(109, 38, 11, 0.5),
+        rgba(109, 38, 11, 0.5)
+      ),url("../IMG/comprarxcategoria/220822_HP_Categories_Men_img.webp");
+    width: 430px;
+    margin-right: 20px;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 120px 25px 25px 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container_categoria_mujer {
+    background-image: linear-gradient(
+        rgba(109, 38, 11, 0.5),
+        rgba(109, 38, 11, 0.5)
+      ), url("../IMG/comprarxcategoria//220822_HP_Categories_Women_img.webp");
+    width: 430px;
+    margin-right: 20px;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 120px 25px 25px 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container_categoria_niño {
+    background-image: linear-gradient(
+        rgba(109, 38, 11, 0.5),
+        rgba(109, 38, 11, 0.5)
+      ), url("../IMG/comprarxcategoria//220822_HP_Categories_Kids_img.webp");
+    width: 430px;
+    margin-right: 20px;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 120px 25px 25px 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}

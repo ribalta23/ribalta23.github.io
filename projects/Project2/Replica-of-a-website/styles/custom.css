@@ -1,0 +1,32 @@
+#customs {
+    margin-top: 20px;
+    height: 270px;
+    width: 100%;
+}
+#customs {
+    height: 270px;
+    width: 100%;
+}
+.customs {
+    background-image: url("../IMG/custom/background\ custom.png");
+    height: 270px;
+    width: 100%;
+}
+
+.customs button {
+    height: 60px;
+    width: 180px;
+    background: white;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 180px;
+    margin-left: 46px;
+}
+.customs button:hover {
+    background: black;
+    color: white;
+}

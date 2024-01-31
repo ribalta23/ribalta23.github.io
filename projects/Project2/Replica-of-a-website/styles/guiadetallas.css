@@ -1,0 +1,136 @@
+#guia_de_tallas {
+    height: 1300px;
+    margin-top: 20px;
+}
+
+.guia_de_tallas {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu_esquerra {
+    width: 40%;
+    height: 50%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto  auto auto auto auto auto;
+}
+
+.menu_esquerra a{
+    color: #242424;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.llegenda {
+    width: 150px;
+}
+
+.llegenda span {
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 500px;
+    align-items: center;
+}
+
+.llegenda span a {
+    color: rgb(0, 126, 165);
+}
+
+.llegenda span a:hover {
+    color: #c9192e;
+}
+
+.conter_guia_tallas {
+    height: 100%;
+    width: 80%;
+}
+
+.conter_guia_tallas h1 {
+    font-size: 30px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+.tr1 {
+    background: black;
+    color: white;
+    border-color: black;
+    text-align: center;
+    height: 50px;
+}
+
+tr td {
+    padding: 15px;
+}
+
+td h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.tr a {
+    color: rgb(0, 126, 165);
+}
+
+.tr a:hover {
+    color: #c9192e;
+}
+
+.tipus_talla {
+    height: 170px;
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.tipus_talla img {
+    height: 150px;
+}
+
+.container_buttons_tallas {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container_buttons_tallas a {
+    margin-right: 100px;
+    padding: 10px 80px 10px 80px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid #000000;
+    color: black;
+}
+.container_buttons_tallas a:hover {
+    background: #c9192e;
+    border-color: #c9192e;
+    color: white;
+    border: 2px solid #c9192e;
+}
+
+.tipus_talla div {
+    text-align: center;
+    cursor: pointer;
+}
+
+.tipus_talla div:hover{
+    color: #c9192e;
+}

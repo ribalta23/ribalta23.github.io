@@ -1,0 +1,43 @@
+#favoritos {
+    background: #F1F2EC;
+    height: 400px;
+    width: 100%;
+}
+#favoritos .container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.title_favoritos {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    align-items: center;
+}
+
+.title_favoritos hr {
+    height: 2px;
+}
+
+.favoritos {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy {
+    width: 200px;
+    margin-right: 30px;
+    height: 300px;
+    text-align: center;
+}
+
+.buy img {
+    height: 200px;
+}

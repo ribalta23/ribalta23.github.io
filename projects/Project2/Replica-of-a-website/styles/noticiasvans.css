@@ -1,0 +1,77 @@
+#noticiasvans {
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#noticiasvans h1 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#noticiasvans h5 {
+    color: red;
+}
+
+.container_noticias {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+.noticias {
+    width: auto;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 360px 50px 80px;
+}
+
+.noticias img {
+    height: 320px;
+}
+
+.noticias a {
+    text-align: left;
+    color: #4d4d4d;
+}
+
+.noticias a p{
+    text-align: left;
+    color: red;
+}
+
+.noticias p {
+    text-align: left;
+    max-width: 320px;
+}
+
+.masinformacion {
+    text-align: left;
+    color: gray;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#noticiasvans button{
+    padding: 15px;
+    background-color: #4d4d4d;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#noticiasvans button{
+    padding: 15px;
+    background-color: #4d4d4d;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#noticiasvans button:hover{
+    background-color: #2c2c2c;
+}

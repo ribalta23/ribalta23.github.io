@@ -1,0 +1,97 @@
+.espai_header {
+    height: 100px;
+}
+.slideshow_principi {
+    height: 25px;
+    background: black;
+    width: 100%;
+}
+.codigo_rebaja {
+    background: #c9192e;
+    width: 100%;
+    height: 25px;
+    display: grid;
+    grid-template-columns: auto;
+    color: white;
+}
+
+#hero {
+    height: 600px;
+}
+.hero {
+    background-image: url("../IMG/HERO/Fondo.png");
+    height: 550px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.hero_dreta {
+    height: 100%;
+}
+.container_hero_dreta {
+    margin-left: 100px;
+}
+
+.hero_dreta .h1 {
+    margin-top: 300px;
+}
+.hero_dreta h1 {
+    font-size: 50px;
+    background: #8B94BF;
+    width: 285px;
+}
+
+.hero_dreta .h2{
+    margin-left: 50px;
+}
+
+.hero_dreta h2 {
+    font-size: 50px;
+    background: #8B94BF;
+}
+
+.hero_esquerra p{
+    margin-top: 60px;
+    background: #8B94BF;
+    padding: 10px;
+    font-size: 12px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+/*---------- BUTTONS ----------*/
+.butons_hero {
+    margin-top: 50px;
+}
+.button_hero1 {
+    height: 60px;
+    width: 180px;
+    background: #c9192e;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button_hero1:hover {
+    background: black;
+}
+
+.button_hero2 {
+    height: 60px;
+    width: 180px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button_hero2:hover {
+    background: white;
+    color: black;
+}
