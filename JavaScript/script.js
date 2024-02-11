@@ -42,3 +42,38 @@ function copy() {
         confirmButtonText: 'Close'
     })
 }
+
+let slideIndex = 0;
+const slides = document.getElementsByClassName("slide");
+
+function showSlide(n) {
+  if (n < 0) {
+    slideIndex = slides.length - 1;
+  } else if (n >= slides.length) {
+    slideIndex = 0;
+  } else {
+    slideIndex = n;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  slides[slideIndex].classList.add("active");
+}
+
+function prevSlide() {
+  showSlide(slideIndex - 1);
+}
+
+function nextSlide() {
+  showSlide(slideIndex + 1);
+}
+
+function autoSlide() {
+  nextSlide();
+}
+
+setInterval(autoSlide, 5000); // Cambia la imagen cada 5 segundos
+
+  
+
