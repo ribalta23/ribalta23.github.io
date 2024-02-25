@@ -20,6 +20,10 @@ body {
     border-radius: 5px;
 }
 
+h2 {
+    color: var(--main-alternative-color);
+}
+
 /*-------------------- HERO --------------*/
 
 .main-page {
@@ -116,6 +120,14 @@ header img{
 }
 
 /*--------------------- PROJECTS -------------*/
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .project {
     width: 300px;
     height: 280px;
@@ -127,22 +139,20 @@ header img{
     color: white;
     position: relative;
     background-repeat: no-repeat;
-    transition: 0.5s;
     box-shadow: 0px 0px 2px 0px rgb(255, 255, 255);
     cursor: pointer;
+    overflow: hidden; /* Evita que el div desbordado genere scrollbars */
+    transition: background-size 0.5s, color 0.5s; /* Transiciones generales */
+    margin: 10px;
 }
 
 .project:hover {
-    background-size: 180%;
+    background-size: 200%; /* Tamaño aumentado al pasar el ratón */
 }
 
 .project:hover .project-div {
-    display: block;
-    opacity: 1;
-}
-
-.project h3 {
-    font-size: 30px;
+    display: block; /* Mostrar el div al pasar el ratón */
+    opacity: 1; /* Hacerlo visible */
 }
 
 .project-div {
@@ -154,8 +164,9 @@ header img{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(13, 29, 49, 0.8);
-    transition: opacity 0.5s;
+    background-color: rgba(13, 29, 49, 0.8); /* Color de fondo con opacidad */
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.5s; /* Transición de opacidad */
 }
 
 .project-div button {
@@ -168,6 +179,17 @@ header img{
     margin: 5px;
     cursor: pointer;
 }
+
+.project:not(:hover) .project-div {
+    display: none; /* Ocultar el div al dejar de pasar el ratón */
+    opacity: 0; /* Hacerlo invisible */
+}
+
+.project:not(:hover) {
+    background-size: 100%; /* Revertir el tamaño del fondo */
+}
+
+
 
 
 /* -------------------- SKILLS ---------------*/
